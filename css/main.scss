@@ -84,7 +84,7 @@ padding: 0px;
 
 }
 .container_about{
-    height: 500px;
+    height: 540px;
 
 }
 .about_title{
@@ -101,6 +101,7 @@ padding: 0px;
 .photo_person_one{
     background-image: url("https://inperson.pl/wp-content/uploads/2018/08/malwina-maier-inperson-500x500.png");
     background-size: cover;
+    background-position: center;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -114,16 +115,27 @@ padding: 0px;
 .photo_person_two{
    background-image: url("https://inperson.pl/wp-content/uploads/2017/12/paulina-torba-inperson-500x500.png");
    background-size: cover;
+   background-position: center;
    width: 200px;
    height: 200px;
    border-radius: 50%;
    margin-right:58px;
 }
 .person_block{
-    width: 600px
+    width: 636px;
 }
 .person_title{
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 18px;
+}
+.person_title_two{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.person_description_two{
+    text-align:end;
 }
