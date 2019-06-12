@@ -8,6 +8,7 @@ body{
     font-family: $font-family;
     margin:0px;
     background-color: #F1F1F1;
+    box-sizing: border-box;
 }
 
 .container {
@@ -25,6 +26,9 @@ body{
     padding-left: 45px;
     font-size: 18px;
     color: white;
+}
+.menu .not_allowed{
+    cursor: not-allowed;
 }
 .container_nav .logo{
     font-weight: bold;
@@ -81,17 +85,17 @@ padding: 0px;
 }
 .about{
     background-color: #F1F1F1;
+    padding: 25px 25px;
 
 }
 .container_about{
-    height: 540px;
+    height: 100vh;
 
 }
 .about_title{
     color:black;
     font-size:36px;
     font-weight: bold;
-    margin-top: 30px;
     margin-bottom: 59px;
 }
 .person_one{
@@ -138,4 +142,63 @@ padding: 0px;
 }
 .person_description_two{
     text-align:end;
+}
+.offer{
+    background-color: #405D78;
+    height:100vh;
+}
+.container_offer{
+height: 734px;
+}
+.offer_title{
+    display:inline-block;
+    color:white;
+    font-size:36px;
+    font-weight: bold;
+    margin-bottom: 73px;
+    padding:25px 25px;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+}
+.box-container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-gap: 10%;
+}
+
+.box {
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+
+}
+footer{
+    background-color: #4E4E4E;
+    padding: 10px 10px;
+}
+.copyright{
+    color:white;
+    font-size: 18px;
+}
+.fab{
+    color:white;
+    font-size: 30px;
+}
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social a{
+    padding-left: 2px;
 }
