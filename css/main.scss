@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+$font-family: 'Roboto', sans-serif;
+
+body{
+    font-family: $font-family;
+    margin:0px;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+.container_nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.menu a,a:link,a:visited,a:active,a:hover{
+    text-decoration: none;
+    padding-left: 45px;
+    font-size: 18px;
+    color: white;
+}
+.container_nav .logo{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.nav{
+    background-color: #4E4E4E;
+    height: 50px;
+}
+.landing_page{
+    background-image: url("https://picsum.photos/id/319/1280");
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+.opacity{
+    background-color: rgba(0, 0, 0, 0.15);
+    filter: contrast(156% );
+}
+ .landing_page_title{
+    color:white;
+    font-size:36px;
+    font-weight: bold;
+    margin-bottom: 63.17px;
+
+}
+.landing_page_description{
+    color:white;
+    font-size:18px;
+    margin-bottom: 43.51px;
+}
+.btn_white{
+    border: 3px solid #FFFFFF;
+    width: 164px;
+    height: 41.39px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+}
+.btn_white:hover{
+    background-color: white;
+    color: black;
+}
+.container_landing_page a{
+padding: 0px;
+}
+.container_landing_page{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    justify-content: center;
+}

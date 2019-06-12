@@ -41,15 +41,16 @@ body {
 }
 
 .landing_page {
-  background-image: url("https://picsum.photos/1280");
+  background-image: url("https://picsum.photos/id/319/1280");
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 95vh;
 }
 
 .opacity {
   background-color: rgba(0, 0, 0, 0.15);
-  opacity: 0.5;
+  -webkit-filter: contrast(156%);
+          filter: contrast(156%);
 }
 
 .landing_page_title {
@@ -78,6 +79,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .btn_white:hover {
@@ -97,7 +100,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
+  height: 95vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
