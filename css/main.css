@@ -291,4 +291,14 @@ footer {
 .social a {
   padding-left: 2px;
 }
+
+.circle:before {
+  content: " ";
+  width: 22px;
+  height: 22px;
+  background-color: #E07A64;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+}
 /*# sourceMappingURL=main.css.map */
