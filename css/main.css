@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
+  background-color: #F1F1F1;
 }
 
 .container {
@@ -47,7 +52,7 @@ body {
   height: 95vh;
 }
 
-.opacity {
+.contrast {
   background-color: rgba(0, 0, 0, 0.15);
   -webkit-filter: contrast(156%);
           filter: contrast(156%);
@@ -104,5 +109,71 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.about {
+  background-color: #F1F1F1;
+}
+
+.container_about {
+  height: 500px;
+}
+
+.about_title {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 59px;
+}
+
+.person_one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photo_person_one {
+  background-image: url("https://inperson.pl/wp-content/uploads/2018/08/malwina-maier-inperson-500x500.png");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 58px;
+}
+
+.person_two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.photo_person_two {
+  background-image: url("https://inperson.pl/wp-content/uploads/2017/12/paulina-torba-inperson-500x500.png");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 58px;
+}
+
+.person_block {
+  width: 600px;
+}
+
+.person_title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 18px;
 }
 /*# sourceMappingURL=main.css.map */
