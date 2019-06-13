@@ -295,6 +295,8 @@ footer {
   background-color: #E07A64;
   display: block;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
+  margin-bottom: 166px;
+  margin-left: -166px;
 }
 /*# sourceMappingURL=main.css.map */
