@@ -253,13 +253,15 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #F1F1F1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .box:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 footer {
