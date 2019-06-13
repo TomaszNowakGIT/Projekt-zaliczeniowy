@@ -1,209 +1,250 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-$font-family: 'Roboto', sans-serif;
+$font-family: 'Roboto',
+sans-serif;
 
-html{
-    scroll-behavior: smooth ;
+html {
+    scroll-behavior: smooth;
 }
-body{
-    font-family: $font-family;
-    margin:0px;
-    background-color: #F1F1F1;
+
+body {
     box-sizing: border-box;
+    margin: 0px;
+    background-color: #F1F1F1;
+    font-family: $font-family;
 }
 
 .container {
-    max-width: 960px;
     margin: auto;
+    max-width: 960px;
 }
-.container_nav{
-    display:flex;
-    justify-content: space-between;
+
+.container_nav {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 50px;
 }
-.menu a,a:link,a:visited,a:active,a:hover{
+
+.menu a,
+a:link,
+a:visited,
+a:active,
+a:hover {
     text-decoration: none;
     padding-left: 45px;
     font-size: 18px;
     color: white;
 }
-.menu .not_allowed{
+
+.menu .not_allowed {
     cursor: not-allowed;
 }
-.container_nav .logo{
+
+.container_nav .logo {
     font-weight: bold;
     font-size: 18px;
     color: white;
 }
-.nav{
+
+.nav {
     background-color: #4E4E4E;
     height: 50px;
 }
-.landing_page{
+
+.landing_page {
     background-image: url("https://picsum.photos/id/319/1280");
     background-position: center;
     background-size: cover;
     height: 95vh;
 }
-.contrast{
-    background-color: rgba(0, 0, 0, 0.15);
-    filter: contrast(156% );
+.container_landing_page a{
+    width: 170px;
 }
- .landing_page_title{
-    color:white;
-    font-size:36px;
-    font-weight: bold;
+.contrast {
+    background-color: rgba(0, 0, 0, 0.15);
+    filter: contrast(156%);
+}
+
+.landing_page_title {
     margin-bottom: 63.17px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
 
 }
-.landing_page_description{
-    color:white;
-    font-size:18px;
+
+.landing_page_description {
     margin-bottom: 43.51px;
+    color: white;
+    font-size: 18px;
 }
-.btn_white{
+
+.btn_white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
     border: 3px solid #FFFFFF;
     width: 164px;
     height: 41.39px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    transition: 1s ease;
 }
-.btn_white:hover{
+
+.btn_white:hover {
     background-color: white;
     color: black;
 }
-.container_landing_page a{
-padding: 0px;
+
+.container_landing_page a {
+    padding: 0px;
 }
-.container_landing_page{
+
+.container_landing_page {
     display: flex;
     flex-direction: column;
-    height: 95vh;
     justify-content: center;
+    height: 95vh;
 }
-.about{
+
+.about {
     background-color: #F1F1F1;
     padding: 25px 25px;
 
 }
 
-.about_title{
-    color:black;
-    font-size:36px;
-    font-weight: bold;
+.about_title {
     margin-bottom: 59px;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
 }
-.person_one{
-     display: flex;
-     align-items: center;
+
+.person_one {
+    display: flex;
+    align-items: center;
 }
-.photo_person_one{
+
+.photo_person_one {
+    margin-right: 58px;
+    border-radius: 50%;
     background-image: url("https://inperson.pl/wp-content/uploads/2018/08/malwina-maier-inperson-500x500.png");
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    margin-right:58px;
 }
-.person_two{
+
+.person_two {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
 }
-.photo_person_two{
-   background-image: url("https://inperson.pl/wp-content/uploads/2017/12/paulina-torba-inperson-500x500.png");
-   background-size: cover;
-   background-position: center;
-   width: 200px;
-   height: 200px;
-   border-radius: 50%;
-   margin-right:58px;
+
+.photo_person_two {
+    margin-right: 58px;
+    border-radius: 50%;
+    background-image: url("https://inperson.pl/wp-content/uploads/2017/12/paulina-torba-inperson-500x500.png");
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
 }
-.person_block{
+
+.person_block {
     width: 636px;
 }
-.person_title{
+
+.person_title {
+    margin-bottom: 18px;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 18px;
 }
-.person_title_two{
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 18px;
+
+.person_title_two {
     display: flex;
     flex-direction: row-reverse;
-}
-.person_description_two{
-    text-align:end;
-}
-.offer{
-    background-color: #405D78;
-    height:100vh;
-}
-.offer_title{
-    display:inline-block;
-    color:white;
-    font-size:36px;
+    margin-bottom: 18px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 73px;
-    padding:25px 25px;
 }
-.flex{
-    display:flex;
+
+.person_description_two {
+    text-align: end;
+}
+
+.offer {
+    background-color: #405D78;
+    height: 100vh;
+}
+
+.offer_title {
+    margin-bottom: 73px;
+    padding: 25px 25px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
     justify-content: center;
 }
+
 .box-container {
     display: grid;
+    position: relative;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10%;
     width: 500px;
     height: 500px;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
-    grid-gap: 10%;
 }
 
 .box {
-    background-color: #F1F1F1;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    background-color: #F1F1F1;
 }
-.box:hover{
+
+.box:hover {
     transition: 0.5s;
     transform: scale(1.05);
 
 }
-footer{
+
+footer {
     background-color: #4E4E4E;
     padding: 10px 10px;
 }
-.copyright{
-    color:white;
+
+.copyright {
+    color: white;
     font-size: 18px;
 }
-.fab{
-    color:white;
+
+.fab {
+    color: white;
     font-size: 30px;
 }
-.container_footer{
+
+.container_footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.social a{
+
+.social a {
     padding-left: 2px;
 }
-.circle:before{
-    content: " ";
-    width: 22px;
-    height:22px;
-    background-color: #E07A64;
+
+.circle:before {
     display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
     border-radius: 50%;
-    position:absolute;
-    margin-left:-85px;
-    margin-top: -85px;
+    background-color: #E07A64;
+    width: 22px;
+    height: 22px;
+    content: " ";
 }
