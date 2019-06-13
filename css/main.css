@@ -4,32 +4,36 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  margin: 0px;
-  background-color: #F1F1F1;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0px;
+  background-color: #F1F1F1;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
-  max-width: 960px;
   margin: auto;
+  max-width: 960px;
 }
 
 .container_nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 50px;
 }
 
-.menu a, a:link, a:visited, a:active, a:hover {
+.menu a,
+a:link,
+a:visited,
+a:active,
+a:hover {
   text-decoration: none;
   padding-left: 45px;
   font-size: 18px;
@@ -58,6 +62,10 @@ body {
   height: 95vh;
 }
 
+.container_landing_page a {
+  width: 170px;
+}
+
 .contrast {
   background-color: rgba(0, 0, 0, 0.15);
   -webkit-filter: contrast(156%);
@@ -65,33 +73,33 @@ body {
 }
 
 .landing_page_title {
+  margin-bottom: 63.17px;
   color: white;
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 63.17px;
 }
 
 .landing_page_description {
+  margin-bottom: 43.51px;
   color: white;
   font-size: 18px;
-  margin-bottom: 43.51px;
 }
 
 .btn_white {
-  border: 3px solid #FFFFFF;
-  width: 164px;
-  height: 41.39px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-transition: 1s ease;
   transition: 1s ease;
+  border: 3px solid #FFFFFF;
+  width: 164px;
+  height: 41.39px;
 }
 
 .btn_white:hover {
@@ -111,10 +119,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 95vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 95vh;
 }
 
 .about {
@@ -123,10 +131,10 @@ body {
 }
 
 .about_title {
+  margin-bottom: 59px;
   color: black;
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 59px;
 }
 
 .person_one {
@@ -139,13 +147,13 @@ body {
 }
 
 .photo_person_one {
+  margin-right: 58px;
+  border-radius: 50%;
   background-image: url("https://inperson.pl/wp-content/uploads/2018/08/malwina-maier-inperson-500x500.png");
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  margin-right: 58px;
 }
 
 .person_two {
@@ -162,13 +170,13 @@ body {
 }
 
 .photo_person_two {
+  margin-right: 58px;
+  border-radius: 50%;
   background-image: url("https://inperson.pl/wp-content/uploads/2017/12/paulina-torba-inperson-500x500.png");
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  margin-right: 58px;
 }
 
 .person_block {
@@ -176,15 +184,12 @@ body {
 }
 
 .person_title {
+  margin-bottom: 18px;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 18px;
 }
 
 .person_title_two {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,6 +197,9 @@ body {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .person_description_two {
@@ -204,12 +212,11 @@ body {
 }
 
 .offer_title {
-  display: inline-block;
+  margin-bottom: 73px;
+  padding: 25px 25px;
   color: white;
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 73px;
-  padding: 25px 25px;
 }
 
 .flex {
@@ -224,26 +231,27 @@ body {
 .box-container {
   display: -ms-grid;
   display: grid;
-  width: 500px;
-  height: 500px;
-  -ms-grid-columns: 33% 33% 33%;
-      grid-template-columns: 33% 33% 33%;
+  position: relative;
   -ms-grid-rows: 33% 33% 33%;
       grid-template-rows: 33% 33% 33%;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
   grid-gap: 10%;
+  width: 500px;
+  height: 500px;
 }
 
 .box {
-  background-color: #F1F1F1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F1F1F1;
 }
 
 .box:hover {
@@ -285,14 +293,14 @@ footer {
 }
 
 .circle:before {
-  content: " ";
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 50%;
+  background-color: #E07A64;
   width: 22px;
   height: 22px;
-  background-color: #E07A64;
-  display: block;
-  border-radius: 50%;
-  position: absolute;
-  margin-left: -85px;
-  margin-top: -85px;
+  content: " ";
 }
 /*# sourceMappingURL=main.css.map */
