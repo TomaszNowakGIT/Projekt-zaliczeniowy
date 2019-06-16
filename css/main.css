@@ -306,4 +306,8 @@ footer {
   height: 22px;
   content: " ";
 }
+
+.shadow {
+  background-color: rgba(0, 0, 0, 0.21);
+}
 /*# sourceMappingURL=main.css.map */
