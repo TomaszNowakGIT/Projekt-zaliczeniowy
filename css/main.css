@@ -155,6 +155,8 @@ a:hover {
   background-size: cover;
   width: 200px;
   height: 200px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .person_two {
@@ -178,6 +180,8 @@ a:hover {
   background-size: cover;
   width: 200px;
   height: 200px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .person_block {
@@ -209,37 +213,51 @@ a:hover {
 
 .offer {
   background-color: #405D78;
-  height: 100vh;
+  padding: 25px 25px;
 }
 
 .offer_title {
   margin-bottom: 73px;
-  padding: 25px 25px;
   color: white;
   font-size: 36px;
   font-weight: bold;
 }
 
-.flex {
+.box-container {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 29% 29% 29%;
+      grid-template-columns: 29% 29% 29%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  width: 720px;
+  margin: 0 auto;
+}
+
+.text:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+.text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.box-container {
-  display: -ms-grid;
-  display: grid;
-  position: relative;
-  -ms-grid-rows: 33% 33% 33%;
-      grid-template-rows: 33% 33% 33%;
-  -ms-grid-columns: 33% 33% 33%;
-      grid-template-columns: 33% 33% 33%;
-  grid-gap: 10%;
-  width: 600px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: #F1F1F1;
 }
 
 .box {
@@ -252,7 +270,6 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #F1F1F1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -309,5 +326,19 @@ footer {
 
 .shadow {
   background-color: rgba(0, 0, 0, 0.21);
+}
+
+.fa-instagram:hover {
+  color: #ffffff;
+  text-shadow: 0 0 15px #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.fa-facebook-square:hover {
+  color: #ffffff;
+  text-shadow: 0 0 15px #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 /*# sourceMappingURL=main.css.map */
