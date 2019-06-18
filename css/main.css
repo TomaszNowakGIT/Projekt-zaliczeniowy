@@ -72,6 +72,10 @@ a:hover {
           filter: contrast(156%);
 }
 
+.shadow {
+  background-color: rgba(0, 0, 0, 0.21);
+}
+
 .landing_page_title {
   margin-bottom: 63.17px;
   color: white;
@@ -322,10 +326,6 @@ footer {
   width: 22px;
   height: 22px;
   content: " ";
-}
-
-.shadow {
-  background-color: rgba(0, 0, 0, 0.21);
 }
 
 .fa-instagram:hover {
