@@ -1,0 +1,40 @@
+.container_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+}
+
+.menu a {
+  padding-left: 45px;
+  font-size: 18px;
+  color: white;
+}
+
+.menu .not_allowed {
+  cursor: not-allowed;
+}
+
+.container_nav .logo {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.nav {
+  background-color: #4E4E4E;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

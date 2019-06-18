@@ -24,215 +24,6 @@ a:hover {
     max-width: 960px;
 }
 
-.container_nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
-}
-
-
-.menu a
- {
-    padding-left: 45px;
-    font-size: 18px;
-    color: white;
-}
-
-.menu .not_allowed {
-    cursor: not-allowed;
-}
-
-.container_nav .logo {
-    font-weight: bold;
-    font-size: 18px;
-    color: white;
-}
-
-.nav {
-    background-color: #4E4E4E;
-    height: 50px;
-}
-
-.landing_page {
-    background-image: url("https://picsum.photos/id/319/1280");
-    background-position: center;
-    background-size: cover;
-    height: 95vh;
-}
-.container_landing_page a{
-    width: 170px;
-}
-.contrast {
-    background-color: rgba(0, 0, 0, 0.15);
-    filter: contrast(156%);
-}
-.shadow{
-    background-color: rgba(0, 0, 0, 0.21);
-}
-.landing_page_title {
-    margin-bottom: 63.17px;
-    color: white;
-    font-size: 36px;
-    font-weight: bold;
-
-}
-
-.landing_page_description {
-    margin-bottom: 43.51px;
-    color: white;
-    font-size: 18px;
-}
-
-.btn_white {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 1s ease;
-    border: 3px solid #FFFFFF;
-    width: 164px;
-    height: 41.39px;
-    color:white;
-}
-
-.btn_white:hover {
-    background-color: white;
-    color: black;
-}
-
-.container_landing_page a{
-    padding: 0px;
-    width:170px;
-
-
-}
-
-.container_landing_page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 95vh;
-}
-
-.about {
-    background-color: #F1F1F1;
-    padding: 25px 25px;
-
-}
-
-.about_title {
-    margin-bottom: 59px;
-    color: black;
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.person_one {
-    display: flex;
-    align-items: center;
-}
-
-.photo_person_one {
-    margin-right: 58px;
-    border-radius: 50%;
-    background-image: url("https://inperson.pl/wp-content/uploads/2018/08/malwina-maier-inperson-500x500.png");
-    background-position: center;
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    flex-shrink:0;
-}
-
-.person_two {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-
-.photo_person_two {
-    margin-right: 58px;
-    border-radius: 50%;
-    background-image: url("https://inperson.pl/wp-content/uploads/2017/12/paulina-torba-inperson-500x500.png");
-    background-position: center;
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    flex-shrink:0;
-}
-
-.person_block {
-    width: 636px;
-}
-
-.person_title {
-    margin-bottom: 18px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.person_title_two {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 18px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.person_description_two {
-    text-align: end;
-}
-
-.offer {
-    background-color: #405D78;
-    padding: 25px 25px;
-}
-.offer_title {
-    margin-bottom: 73px;
-    color: white;
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.box-container {
-    position: relative;
-    display: grid;
-    grid-template-columns: 29% 29% 29%;
-    grid-template-rows: auto;
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-    width: 720px;
-    margin: 0 auto;
-}
-.text:after{
-    content: '';
-    display: block;
-    padding-bottom: 100%;
-
-}
-.text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    font-size: 24px;
-    line-height: 28px;
-    background-color: #F1F1F1;
-
-}
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-}
-
-.box:hover {
-    transform: scale(1.05);
-    transition: 0.5s;
-
-}
 
 footer {
     background-color: #4E4E4E;
@@ -259,17 +50,7 @@ footer {
     padding-left: 2px;
 }
 
-.circle:before {
-    display: block;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    border-radius: 50%;
-    background-color: #E07A64;
-    width: 22px;
-    height: 22px;
-    content: " ";
-}
+
 
 .fa-instagram:hover{
     color:#ffffff;
@@ -281,3 +62,21 @@ footer {
     text-shadow: 0 0 15px #ffffff;
     transition: all 0.5s ease;
 }
+
+
+@media screen and (max-width: 768px){
+    .container {
+  padding: 0px 0px 0px 14px;
+    }
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+
+    }
+.social{
+    padding-top:10px;
+}
+}
+

@@ -1,0 +1,147 @@
+.about {
+  background-color: #F1F1F1;
+  padding: 25px 25px;
+}
+
+.about_title {
+  margin-bottom: 59px;
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.person_one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photo_person_one {
+  margin-right: 58px;
+  border-radius: 50%;
+  background-image: url("https://inperson.pl/wp-content/uploads/2018/08/malwina-maier-inperson-500x500.png");
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.person_two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.photo_person_two {
+  margin-right: 58px;
+  border-radius: 50%;
+  background-image: url("https://inperson.pl/wp-content/uploads/2017/12/paulina-torba-inperson-500x500.png");
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.person_block {
+  width: 636px;
+}
+
+.person_title {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.person_title_two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.person_description_two {
+  text-align: end;
+}
+
+@media screen and (max-width: 768px) {
+  .about_title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .person_one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .photo_person_one {
+    margin: auto;
+  }
+  .person_block {
+    width: auto;
+  }
+  .person_title {
+    text-align: center;
+    margin-top: 59px;
+  }
+  .person_two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .photo_person_two {
+    margin: auto;
+  }
+  .person_title_two {
+    display: block;
+    text-align: center;
+    margin-top: 59px;
+  }
+  .person_description_two {
+    text-align: start;
+  }
+}
+/*# sourceMappingURL=about.css.map */
