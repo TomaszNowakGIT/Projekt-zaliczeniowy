@@ -12,6 +12,12 @@ body {
     background-color: #F1F1F1;
     font-family: $font-family;
 }
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;}
 
 .container {
     margin: auto;
@@ -25,12 +31,9 @@ body {
     height: 50px;
 }
 
-.menu a,
-a:link,
-a:visited,
-a:active,
-a:hover {
-    text-decoration: none;
+
+.menu a
+ {
     padding-left: 45px;
     font-size: 18px;
     color: white;
@@ -82,6 +85,7 @@ a:hover {
 }
 
 .btn_white {
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,6 +93,7 @@ a:hover {
     border: 3px solid #FFFFFF;
     width: 164px;
     height: 41.39px;
+    color:white;
 }
 
 .btn_white:hover {
@@ -96,9 +101,11 @@ a:hover {
     color: black;
 }
 
-.container_landing_page a {
+.container_landing_page a{
     padding: 0px;
     width:170px;
+
+
 }
 
 .container_landing_page {
