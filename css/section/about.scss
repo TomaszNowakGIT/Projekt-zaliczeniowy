@@ -86,8 +86,7 @@
         width: auto;
     }
     .person_title{
-        text-align: center;
-        margin-top: 59px;
+        margin-top: 15px;
     }
     .person_two {
         display: flex;
@@ -100,10 +99,12 @@
     }
     .person_title_two{
         display: block;
-        text-align: center;
-        margin-top: 59px;
+        margin-top: 15px;
     }
     .person_description_two {
         text-align: start;
+}
+.about{
+    padding: 14px 14px;
 }
 }
