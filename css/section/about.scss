@@ -1,24 +1,27 @@
 
 .about {
     background-color: #F1F1F1;
-    padding: 25px 25px;
-
+    padding: 14px 0px 14px 0px;
 }
 
 .about_title {
-    margin-bottom: 59px;
+    margin: 0px 0px 59px 0px;
     color: black;
     font-size: 36px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .person_one {
     display: flex;
-    align-items: center;
+    align-items: unset;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .photo_person_one {
-    margin-right: 58px;
+    margin:auto;
     border-radius: 50%;
     background-image: url("https://inperson.pl/wp-content/uploads/2018/08/malwina-maier-inperson-500x500.png");
     background-position: center;
@@ -30,12 +33,12 @@
 
 .person_two {
     display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
+    align-items: unset;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .photo_person_two {
-    margin-right: 58px;
     border-radius: 50%;
     background-image: url("https://inperson.pl/wp-content/uploads/2017/12/paulina-torba-inperson-500x500.png");
     background-position: center;
@@ -43,68 +46,71 @@
     width: 200px;
     height: 200px;
     flex-shrink:0;
+    margin:auto;
 }
 
 .person_block {
-    width: 636px;
+    width: auto;
 }
 
 .person_title {
-    margin-bottom: 18px;
+    margin: 15px 0px 18px 0px;
     font-size: 18px;
     font-weight: bold;
 }
 
 .person_title_two {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 18px;
     font-size: 18px;
     font-weight: bold;
+    display: block;
+    margin: 15px 0px 18px 0px;
 }
 
 .person_description_two {
-    text-align: end;
+    text-align: start;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .about_title {
-        display: flex;
-        justify-content: center;
+        display: block;
+        justify-content: unset;
+        margin: 0px 0px 59px 0px;
     }
     .person_one {
         display: flex;
-        align-items: unset;
-        justify-content: center;
-        flex-direction: column;
+        align-items: center;
+        justify-content: unset;
+        flex-direction: unset;
     }
     .photo_person_one{
-        margin:auto;
+        margin:0px 58px 0px 0px;
 
     }
     .person_block{
-        width: auto;
+        width: 636px;
     }
     .person_title{
-        margin-top: 15px;
+        margin: 0px 0px 18px 0px;
     }
     .person_two {
         display: flex;
-        align-items: unset;
-        justify-content: center;
-        flex-direction: column;
+        justify-content: unset;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
     }
     .photo_person_two{
-        margin:auto;
+        margin:0px 58px 0px 0px;
     }
     .person_title_two{
-        display: block;
-        margin-top: 15px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0px 0px 18px 0px;
     }
     .person_description_two {
-        text-align: start;
+        text-align: end;
 }
 .about{
-    padding: 14px 0px 14px 0px;
+    padding: 25px 25px 25px 25px;
 }
 }

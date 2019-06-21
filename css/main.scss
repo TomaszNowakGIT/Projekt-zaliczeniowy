@@ -20,8 +20,9 @@ a:hover {
     text-decoration: none;}
 
 .container {
-    margin: auto;
-    max-width: 960px;
+    // margin: auto;
+    // max-width: 960px;
+    padding: 0px 14px 0px 14px;
 }
 
 
@@ -41,8 +42,12 @@ footer {
 }
 
 .container_footer {
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content:center;
     align-items: center;
 }
 
@@ -50,8 +55,24 @@ footer {
     padding-left: 2px;
 }
 
+.social{
+    padding-top:10px;
+}
+@media screen and (min-width: 768px){
+    .container {
+        margin: auto;
+        max-width: 960px;
+    }
+    .container_footer {
+        display: flex;
+        flex-direction:unset;
+        justify-content: space-between;
+        align-items: center;
 
-
+    }
+.social{
+    padding-top:0px;
+}
 .fa-instagram:hover{
     color:#ffffff;
     text-shadow: 0 0 15px #ffffff;
@@ -61,22 +82,6 @@ footer {
     color:#ffffff;
     text-shadow: 0 0 15px #ffffff;
     transition: all 0.5s ease;
-}
-
-
-@media screen and (max-width: 768px){
-    .container {
-  padding: 0px 14px 0px 14px;
-    }
-    .container_footer {
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items: center;
-
-    }
-.social{
-    padding-top:10px;
 }
 }
 

@@ -51,11 +51,6 @@
   color: white;
 }
 
-.btn_white:hover {
-  background-color: white;
-  color: black;
-}
-
 .container_landing_page a {
   padding: 0px;
   width: 170px;
@@ -73,5 +68,12 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 95vh;
+}
+
+@media screen and (min-width: 768px) {
+  .btn_white:hover {
+    background-color: white;
+    color: black;
+  }
 }
 /*# sourceMappingURL=landing.css.map */
