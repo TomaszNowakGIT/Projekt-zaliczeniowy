@@ -33,8 +33,6 @@
 
 .container_nav .menu-icon {
     cursor: pointer;
-    float: right;
-    padding: 28px 20px;
     position: relative;
     user-select: none;
 }
@@ -126,7 +124,7 @@
     right:0px;
     z-index: 1;
     padding: 0px 15px 0px 0px;
-    transition: 1s top;
+    transform: scaleY(1);
     }
   .menu a{
     padding:15px;

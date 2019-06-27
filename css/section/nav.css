@@ -38,8 +38,6 @@
 
 .container_nav .menu-icon {
   cursor: pointer;
-  float: right;
-  padding: 28px 20px;
   position: relative;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -139,8 +137,8 @@
     right: 0px;
     z-index: 1;
     padding: 0px 15px 0px 0px;
-    -webkit-transition: 1s top;
-    transition: 1s top;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
   }
   .menu a {
     padding: 15px;
