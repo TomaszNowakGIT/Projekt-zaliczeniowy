@@ -16,7 +16,7 @@
           justify-content: center;
 }
 
-.person_one {
+.person:nth-child(odd) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,7 +44,7 @@
       flex-shrink: 0;
 }
 
-.person_two {
+.person:nth-child(even) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,7 +105,7 @@
             justify-content: unset;
     margin: 0px 0px 59px 0px;
   }
-  .person_one {
+  .person:nth-child(even) {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -129,7 +129,7 @@
   .person_title {
     margin: 0px 0px 18px 0px;
   }
-  .person_two {
+  .person:nth-child(odd) {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
