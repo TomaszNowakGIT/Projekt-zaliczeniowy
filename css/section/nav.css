@@ -146,10 +146,23 @@
 
 @media screen and (min-width: 768px) {
   #menu-btn:checked ~ .menu {
-    display: none;
+    display: block;
     background-color: #4E4E4E;
     top: unset;
     right: unset;
+    width: unset;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+    position: unset;
+    padding: 0px 15px 0px 0px;
   }
 }
 /*# sourceMappingURL=nav.css.map */
