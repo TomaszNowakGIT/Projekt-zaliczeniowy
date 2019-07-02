@@ -143,4 +143,13 @@
 .menu a {
   padding: 15px;
 }
+
+@media screen and (min-width: 768px) {
+  #menu-btn:checked ~ .menu {
+    display: none;
+    background-color: #4E4E4E;
+    top: unset;
+    right: unset;
+  }
+}
 /*# sourceMappingURL=nav.css.map */
